@@ -1,3 +1,103 @@
-h2 {
-	color: red;
+
+
+
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 12 version
+*/
+
+header {
+	padding: 20px;
+	background-color: lightpink;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
 }
+
+
+.logo {
+	font-size: 50px;
+	color: green;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 70px;
+
+}
+
+nav {
+	display: inline-block;
+		vertical-align: middle;
+
+}
+
+li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 30px;
+}
+
+li a {
+	font-size: 24px;
+	color: black;
+}
+
+.s-1 {
+	margin-top: 90px;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.mshobeli {
+	width: 600px;
+	height: 600px;
+	border: 5px solid gray;
+	background-color: lightgrey;
+	position: relative;
+	top: 0;
+	left: 0;
+
+}
+
+.shvili {
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+
+/*start section 2*/
+
+
+
+.wrapper {
+	display: inline-block;
+	position: relative;
+}
+
+h2 {
+	font-size: 34px;
+	color: red;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	background-color: yellow;
+}
+
+
+
+
